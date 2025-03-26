@@ -1,40 +1,45 @@
 body{
-    background-color: lightgoldenrodyellow;
+    background-color: #fff;
     font-family: sans-serif;
-    color:white;
+    color: white;
+    
 }
 
 .card{
-    background-color: coral;
+    background-color: rgb(118, 188, 112);
     text-align: center;
-    width:300px; 
-    margin: auto; /*lo centra a la mitad*/
-    margin-top: 20px;
-    border-width: 5px;
-    border-color: black;
-    border-style: solid;
-    border-radius: 50px;
-
+    width: 300px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px 10px;
+    box-shadow: 0px 0px 25px #0007
+    
 }
 
-h1{
-    padding-top: 10px;
+.card_title{
     font-size: 22px;
     margin:0;
 
 }
 
-h2{
+.card_subtitle{
     font-size: 13px;
     font-weight: 100;
     letter-spacing: 2px;
+    margin: 0;
+    margin-top: 5px;
 }
 
-p{
+.card_content{
     font-size: 9px;
-    padding: 20px;
-    background-color: lightcoral;
+    padding: 10px;
+    padding-bottom: 0;
     text-align: justify;
-    border-radius: 50px;
+    margin-bottom: justify;
 
+}
+
+.card_img{
+    width: 100px;
+    border-radius: 50%;
 }
