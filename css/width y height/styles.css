@@ -1,0 +1,18 @@
+h1 {
+   text-align: center; /* alinea texto dentro de contenedor */
+}
+
+p {
+   color:red;
+   font-family: Roboto;
+   font-size: 20px;
+   font-weight:normal;
+   font-style:italic;
+   text-align: justify; /*que toda las lineas coincidan*/
+   text-decoration: line-through;/*tachar texto*/
+   line-height: 1.5; /*espaciado entre lineas*/
+   letter-spacing: 3x;/*espaciado entre letras*/
+   text-transform:capitalize;
+}
+
+
