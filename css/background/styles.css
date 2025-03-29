@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(117, 161, 224);
+    margin:0;
+    font-family: sans-serif;
+    color: white;
+}
+
+.box{
+    width: 100%;
+    height: 100px;
+    margin: 20px;
+    background-color: #d5131377; /* agrego trasnparencia con 77 */
+    /* position:absolute; */
+    /* top:0; */
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKwkKi0gHSc82BwOTGPQPaKW3PsPAL-f4SQg&s");
+    background-size: cover;
+    margin:0;
+    background-attachment: fixed;
+}
+
+.opaco{
+    height: 100%;
+    width: 100%;
+    background-color: #099a;
+}
