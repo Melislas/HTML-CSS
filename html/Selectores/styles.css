@@ -7,21 +7,27 @@ img[src^="https://"]{
 }
 
 ul li {
-    color: blue;
+    color: gray;
 }
-
-li {
-    color: red;
+li{
+    color: green;
 }
 
 li>strong{
     color: green;
 }
 
-/*Selector adyacente*/
+/*Selector de hermano adyacente*/
 
-h1 + p {
-    color :aqua;
+h1 + p + p{
+    color :blue;
 }
 
-/*Selector */
+/*Selector de hermanos generales */
+h1 ~ p ~ p{
+    color :blue;
+}
+
+h1, p {
+    background-color: lightgreen;
+}

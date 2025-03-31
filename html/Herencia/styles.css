@@ -1,0 +1,12 @@
+body {
+    color: brown;
+    font-family: sans-serif;
+}
+
+/*solo si yo modifico el h1 si se cambia */
+h1 {
+    color: red;
+    font-size: 2em;
+    text-align: center;
+}
+
