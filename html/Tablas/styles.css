@@ -1,0 +1,24 @@
+td, th{
+text-align: center;
+padding: 8px;
+font-family: sans-serif;
+border: none;
+border-bottom: 1px solid black;
+}
+
+td{
+    color: #444;
+
+}
+
+table{
+    width: 100%;
+    border-spacing: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.dato{
+    border: none;
+}

@@ -1,0 +1,27 @@
+img[src$="jpg"]{
+    width: auto;
+}
+
+img[src^="https://"]{
+    width: 100%;
+}
+
+ul li {
+    color: blue;
+}
+
+li {
+    color: red;
+}
+
+li>strong{
+    color: green;
+}
+
+/*Selector adyacente*/
+
+h1 + p {
+    color :aqua;
+}
+
+/*Selector */
