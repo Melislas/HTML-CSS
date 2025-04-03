@@ -1,0 +1,18 @@
+.elemento1,
+.elemento2,
+.elemento3 {
+    color: red;
+}
+
+/* modifica los elemeentos 1 2 3 que estan dentro de algun section  */
+section :is(.elemento1, .elemento2,.elemento3){
+    color:blue;
+}
+/* si queremos que no cambie la especificidad usamos where  */
+
+
+/* en caso de que a Ul le siga un div modificamos el ul */
+
+ul:has(+div){
+    background-color: blue;
+}
