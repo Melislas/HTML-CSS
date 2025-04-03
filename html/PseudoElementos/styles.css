@@ -1,0 +1,42 @@
+div {
+    padding: 20px;
+}
+
+
+h1::first-letter{
+    color:rebeccapurple;
+    font-size: 40px;
+    letter-spacing: -4px;
+}
+
+
+div::first-line{
+    color:red;
+    font-weight: bold;
+
+}
+
+h1::selection{
+    background-color: yellow;
+}
+
+input::placeholder{
+    background-color: rgb(121, 93, 58);
+    color: rgb(2, 9, 16);
+}
+
+li::marker{
+    color: burlywood
+    ;
+}
+
+li::before{
+    content: "antes";
+    color: rgb(231, 22, 151);
+}
+
+li::after{
+    content: "despues";
+    color: blue;
+
+}
