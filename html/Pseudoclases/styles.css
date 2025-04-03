@@ -1,0 +1,76 @@
+h1{
+    color: #48e;
+    margin: 30px;
+    font-family: sans-serif;
+}
+
+/*Cambia de color cuando apoyo el cursor*/
+h1:hover{
+    color :black;
+    background-color: rgb(178, 182, 188);
+}
+
+/* hace lo mismo que hover pero con un click*/
+h1:active{
+    background-color: #48e;
+    color: #fff;}
+
+/*Seleccionando solo el primer Li*/
+
+li:first-child{
+    color: rgb(241, 228, 45);
+}
+
+/*Seleccionando el ultimo Li*/
+li:last-child{
+    color:#00f;
+}
+
+/*Seleccionando un elemnto x*/
+li:nth-child(2n){   /*Seleccionamos de dos elemento 1 , este cuenta igual si son distinto tipo*/
+    color: #0f0;
+}
+
+li:nth-of-type(5){  /*Este cuenta solo lo del mismo tipo, todos los li*/
+    color: #48e;
+}
+    
+.lista li:not(.excluir) {
+   color: red;
+}
+div{
+    border: 3px solid black;
+}
+div:empty{   /*solo lo aplica cuando esta vacio*/
+   border:none
+
+}
+
+input[type="checkbox"]{
+    margin: 50px;
+
+}
+
+input[type="checkbox"]:checked{
+    margin: 0;
+
+}
+
+/*Seleccionando enlaces no visitados*/
+
+a:link{
+    color:red;
+}
+
+/*Seleccionando enlaces visitados*/
+
+a:visited{
+    color :green;
+}
+
+input:invalid{
+    color: red;
+}
+input:valid{
+    color:green;
+}
